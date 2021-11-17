@@ -1,0 +1,1 @@
+find -type f -name "*.txt"| xargs dirname | xargs -n 1 cp -v s
