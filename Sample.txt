@@ -1,1 +1,8 @@
 find -type f -name "*.txt"| xargs dirname | xargs -n 1 cp -v s
+
+#!/bin/bash
+
+for file in $(find -type f -name "*.txt") 
+do echo $file
+done
+exit 0
